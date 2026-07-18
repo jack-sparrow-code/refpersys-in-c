@@ -530,9 +530,9 @@ Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ## 👤 Contact
 
-- **Site officiel** : [http://refpersys.org/](http://refpersys.org/)
-- **Email** : team@refpersys.org
-- **Dépôt** : [RefPerSys/refpersys-in-c](https://github.com/RefPerSys/refpersys-in-c)
+- **Site officiel** : [https://blues-softwares.net](https://blues-softwares.net)
+- **Email** : contact@blues-softwares.net
+- **Dépôt** : [[RefPerSys/refpersys-in-c](https://github.com/jack-sparrow-code/refpersys-in-c)]((https://github.com/jack-sparrow-code/refpersys-in-c))
 
 ---
 

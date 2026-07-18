@@ -3,8 +3,8 @@
 > **Complete Rewrite of RefPerSys in C**
 > *Reflective Persistent System - Version C*
 
-**Site officiel :** [http://refpersys.org/](http://refpersys.org/)  
-**Dépôt C++ précédent :** [RefPerSys/RefPerSys](https://github.com/RefPerSys/RefPerSys)  
+**Site officiel :** [https://blues-softwares.net](https://blues-softwares.net)  
+**Dépôt C++ précédent :** [Blues Softwares DB USE](https://github.com/jack-sparrow-code/refpersys-in-c)  
 **Licence :** GPL-3.0-or-later
 
 ---

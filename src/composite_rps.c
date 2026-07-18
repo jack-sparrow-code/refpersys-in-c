@@ -1028,7 +1028,7 @@ rps_stringdict_payload_dump_scanner (RpsDumper_t * du,
 			ix, payl->payl_owner, curnam, curval);
       rps_dumper_scan_value (du, (RpsValue_t) curnam, 0);
       rps_dumper_scan_value (du, curval, 0);
-      if (!kavl_itr_next_rpsmusetob (&iter))
+      if (!kavl_itr_next_strdicnodrps (&iter))
 	break;
     };
   RPS_DEBUG_PRINTF (DUMP,
@@ -1081,7 +1081,7 @@ rps_stringdict_payload_dump_serializer (RpsDumper_t * du,
 			   rps_dump_json_for_value (du, curval, 0));
 	  json_array_append_new (jsarr, jent);
 	}
-      if (!kavl_itr_next_rpsmusetob (&iter))
+      if (!kavl_itr_next_strdicnodrps (&iter))
 	break;
     };
   json_object_set (json, "dictionary", jsarr);

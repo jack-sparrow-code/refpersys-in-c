@@ -991,7 +991,7 @@ rpscloj_dump_object_attributes (rps_callframe_t * callerframe,
   json_t *jsarr = json_array ();
   unsigned nbattrs = rps_set_cardinal (setattrs);
   if (nbattrs == 0)
-    return obdump;
+    return (RpsValue_t) obdump;
   for (int aix = 0; aix < (int) nbattrs; aix++)
     {
       const RpsObject_t *obattr = rps_set_nth_member (setattrs, aix);
